@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <title>Nailton Costa Santos</title>
+</head>
+
+<body>
+  <div class="principal">
+    <!--Navbar-->
+    <nav>
+      <ul class="topo">
+        <li>
+          <a href="index.html">Sobre mim</a>
+        </li>
+        <li>
+          <a href="project.html">Projetos</a>
+        </li>
+        <li>
+          <a href="contact.html">Onde me encontrar</a>
+        </li>
+        <li>
+          <a href="email.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--header-->
+    <header>
+      <div class="center">
+        <img src="img.jpg">
+        <h1>Entre em Contato!</h1>
+      </div>
+
+    </header>
+
+    <!--Main-->
+    <main>
+      <form class="contact-form" action="https://formsubmit.co/oinailton@gmail.com" method="POST">
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Mensagem</label>
+          <input type="text" id="message" name="message" required>
+        </div>
+        <button type="submit">Send</button>
+        <input type="hidden" name="_next" value="https://nailtoncsantos.github.io/portfolio/thanks.html">
+        <input type="hidden" name="_subject" value="New submission!">
+      </form>
+    </main>
+
+    <footer>
+      <span>Desenvolvido por Nailton Costa Santos</span>
+    </footer>
+  </div>
+</body>
+
+</html>
